@@ -1,0 +1,248 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="styles.css">
+<style>
+#backgroundImage{z-index: 1;}
+
+#backgroundImage:before {
+   content: "";
+   position: fixed;
+   z-index: -1;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   background-image: url("https://t4.ftcdn.net/jpg/01/49/99/29/500_F_149992927_WYyu5zQKzHUlrvSf1IHvGjzHYeaFviLI.jpg ");
+   background-size: auto;
+   min-height: 100%;
+   min-width: 100%;
+    opacity: 0.2;
+    filter:alpha(opacity=100);
+ }
+
+body{
+  background-color: white;
+}
+.button{
+  text-decoration: none;
+  font-weight: 600;
+  color: #6666ff;
+  font-family: arial;
+}
+header{background-color: black;
+color: white;
+	width: 100%;
+	padding: 15px 0;
+	text-align: center;
+}
+.navbar {
+    overflow: hidden;
+    background-color: black;
+color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: grey;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #f8bbd0;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+</style>
+</head>
+
+
+<body>
+<header> <h1>TREND STOCK</h1></header>
+
+<div class="navbar">
+  <a class="active" href="home.html"><i class="fa fa-fw fa-home"></i> Home</a>
+  <a href="contact.html"><i class="fa fa-fw fa-envelope"></i> Contact</a> 
+  <a href="login.html"><i class="fa fa-fw fa-user"></i> Login</a>
+  <a href="about.html"><i class="fa fa-sticky-note"></i> About Us</a>
+  <div class="dropdown">
+    <button class="dropbtn"><i class="fa fa-fw fa-bell-o"></i>BEST-SELLERS
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="tees.html">Tops</a>
+	  <a href="watches.html">Watches</a>
+	  <a href="laptops.html">Laptops</a>
+	  <a href="mobiles.html">Mobiles</a>
+    </div>
+  </div> 
+<input class="search-area" type="text" name="text" placeholder="search here">
+ <button class="search-btn" <i class="fa fa-search"></i>Search</button>
+<a href="#"><i class="fa fa-shopping-cart"></i> Cart</a>
+
+ 
+</div>
+<div id="backgroundImage">
+<ul class="resources">
+  <li>
+    <img src="images/e1.jpg">
+    <br><br>
+
+    <div class="resource_info">
+      <a href="#" class="button">Set of 2 Sterling Silver Small<br></a>
+      <p class="price">Rs.449<br></p>
+      <h2><a href="#"><i class="fa fa-shopping-cart"></i>Add to Cart<br><br></a></h2>
+  </li>
+  <li>
+    <img src="images/e2.jpg">
+    <br><br>
+
+    <div class="resource_info">
+      <a href="#" class="button">Set of 1 Sterling Silver Small <br></a>
+      <p class="price">Rs.925<br></p>
+      <h2><a href="#"><i class="fa fa-shopping-cart"></i>Add to Cart<br><br></a></h2>
+
+  </li>
+  <li>
+    <img src="images/e3.jpg">
+    <br><br>
+
+    <div class="resource_info">
+      <a href="#" class="button">Set of 2 Ruhi Silver Small<br></a>
+      <p class="price">Rs.490<br></p>
+      <h2><a href="#"><i class="fa fa-shopping-cart"></i>Add to Cart<br><br></a></h2>
+
+  </li>
+  <li>
+    <img src="images/e4.jpg">
+    <br><br>
+
+    <div class="resource_info">
+      <a href="#" class="button">Silver Shoppee Swarovski Crystal Studded Sterling Silver Earrings<br></a>
+      <p class="price">Rs.349<br></p>
+      <h2><a href="#"><i class="fa fa-shopping-cart"></i>Add to Cart<br><br></a></h2>
+
+  </li>
+
+  <li>
+    <img src="images/e5.jpg">
+    <br><br>
+
+    <div class="resource_info">
+      <a href="#" class="button">Bold N Elegant Silver and Black Long Feather Earrings<br></a>
+      <p class="price">Rs.490<br></p>
+      <h2><a href="#"><i class="fa fa-shopping-cart"></i>Add to Cart<br><br></a></h2>
+
+  </li>
+
+  <li>
+    <img src="images/e6.jpg">
+    <br><br>
+
+    <div class="resource_info">
+      <a href="#" class="button">Royal Blue Silver 18K Heart Shape Clip on Earrings <br></a>
+      <p class="price">Rs.311<br></p>
+      <h2><a href="#"><i class="fa fa-shopping-cart"></i>Add to Cart<br><br></a></h2>
+
+  </li>
+
+  <li>
+    <img src="images/e7.jpg">
+    <br><br>
+
+    <div class="resource_info">
+      <a href="#" class="button">karatcart Platinum Plated Austrian Crystal Drop Earrings<br></a>
+      <p class="price">Rs.599<br></p>
+      <h2><a href="#"><i class="fa fa-shopping-cart"></i>Add to Cart<br><br></a></h2>
+
+  </li>
+
+  <li>
+    <img src="images/e8.jpg">
+    <br><br>
+
+    <div class="resource_info">
+      <a href="#" class="button"> Black & Golden Crystal Stud Fancy Party Wear Earrings <br></a>
+      <p class="price">Rs.349<br></p>
+      <h2><a href="#"><i class="fa fa-shopping-cart"></i>Add to Cart<br><br></a></h2>
+
+  </li>
+
+  <li>
+    <img src="images/e9.jpg">
+    <br><br>
+
+    <div class="resource_info">
+      <a href="#" class="button"> Feather Style Fancy Party Wear Earrings <br></a>
+      <p class="price">Rs.479<br></p>
+      <h2><a href="#"><i class="fa fa-shopping-cart"></i>Add to Cart<br><br></a></h2>
+
+  </li>
+
+  <li>
+    <img src="images/e11.jpg">
+    <br><br>
+
+    <div class="resource_info">
+      <a href="#" class="button">Pot of Style Ethnic Style Black Beads Dangle Drop Earring<br></a>
+      <p class="price">Rs.299<br></p>
+      <h2><a href="#"><i class="fa fa-shopping-cart"></i>Add to Cart<br><br></a></h2>
+
+  </li>
+
+  
+
+  
+  
+
+</ul>
+</div>
+</body>
+</html>
+
+

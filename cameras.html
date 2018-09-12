@@ -1,0 +1,263 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="styles.css">
+<style>
+#backgroundImage{z-index: 1;}
+
+#backgroundImage:before {
+   content: "";
+   position: fixed;
+   z-index: -1;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   background-image: url("https://t4.ftcdn.net/jpg/01/49/99/29/500_F_149992927_WYyu5zQKzHUlrvSf1IHvGjzHYeaFviLI.jpg ");
+   background-size: auto;
+   min-height: 100%;
+   min-width: 100%;
+    opacity: 0.2;
+    filter:alpha(opacity=100);
+ }
+
+body{
+  background-color: white;
+}
+.button{
+  text-decoration: none;
+  font-weight: 600;
+  color: #6666ff;
+  font-family: arial;
+}
+header{background-color: black;
+color: white;
+	width: 100%;
+	padding: 15px 0;
+	text-align: center;
+}
+.navbar {
+    overflow: hidden;
+    background-color: black;
+	color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: grey;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #f8bbd0;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.resources1 li img{
+			width: 220px;
+			height: 180px;
+			border: 1px solid LightGrey;
+			padding: 10px;
+			box-shadow: 10px 10px 5px grey; 
+			
+}
+.resources1 li{
+		padding:20px;
+		width: 250px;
+		display: inline-table;
+		vertical-align: baseline;
+}
+.resources1{
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+</style>
+</head>
+
+
+<body>
+<header> <h1>TREND STOCK</h1></header>
+
+<div class="navbar">
+  <a class="active" href="home.html"><i class="fa fa-fw fa-home"></i> Home</a>
+  <a href="contact.html"><i class="fa fa-fw fa-envelope"></i> Contact</a> 
+  <a href="login.html"><i class="fa fa-fw fa-user"></i> Login</a>
+  <a href="about.html"><i class="fa fa-sticky-note"></i> About Us</a>
+  <div class="dropdown">
+    <button class="dropbtn"><i class="fa fa-fw fa-bell-o"></i>BEST-SELLERS
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="tees.html">Tops</a>
+	  <a href="watches.html">Watches</a>
+	  <a href="laptops.html">Laptops</a>
+	  <a href="mobiles.html">Mobiles</a>
+    </div>
+  </div> 
+<input class="search-area" type="text" name="text" placeholder="search here">
+ <button class="search-btn" <i class="fa fa-search"></i>Search</button>
+<a href="#"><i class="fa fa-shopping-cart"></i> Cart</a>
+
+ 
+</div>
+<div id="backgroundImage">
+<ul class="resources1">
+  <li>
+    <img src="images/ca1.jpg">
+    <br><br>
+
+    <div class="resource_info">
+      <a href="#" class="button">Canon Eos 1300D 18MP Digital SLR Camera <br></a>
+      <p class="price">Rs.25,490<br></p>
+      <h2><a href="#"><i class="fa fa-shopping-cart"></i>Add to Cart<br><br></a></h2>
+  </li>
+  <li>
+    <img src="images/ca2.jpg">
+    <br><br>
+
+    <div class="resource_info">
+      <a href="#" class="button">Nikon D5300 24.2MP Digital SLR Camera<br></a>
+      <p class="price">Rs.36,990<br></p>
+      <h2><a href="#"><i class="fa fa-shopping-cart"></i>Add to Cart<br><br></a></h2>
+
+  </li>
+  <li>
+    <img src="images/ca3.jpg">
+    <br><br>
+
+    <div class="resource_info">
+      <a href="#" class="button">Sony DSC W830 Cyber-shot 20.1 MP Point and Shoot Camera<br></a>
+      <p class="price">Rs.7,929<br></p>
+      <h2><a href="#"><i class="fa fa-shopping-cart"></i>Add to Cart<br><br></a></h2>
+
+  </li>
+  <li>
+    <img src="images/ca4.jpg">
+    <br><br>
+
+    <div class="resource_info">
+      <a href="#" class="button">Canon Eos 5D Mark IV 30.4 MP Digital SLR Camera<br></a>
+      <p class="price">Rs.27,750<br></p>
+      <h2><a href="#"><i class="fa fa-shopping-cart"></i>Add to Cart<br><br></a></h2>
+
+  </li>
+
+  <li>
+    <img src="images/ca5.jpg">
+    <br><br>
+
+    <div class="resource_info">
+      <a href="#" class="button">Nikon Coolpix A10 Point and Shoot Digital Camera<br></a>
+      <p class="price">Rs.5,089<br></p>
+      <h2><a href="#"><i class="fa fa-shopping-cart"></i>Add to Cart<br><br></a></h2>
+
+  </li>
+
+  <li>
+    <img src="images/ca6.jpg">
+    <br><br>
+
+    <div class="resource_info">
+      <a href="#" class="button">Sony H400/B 20.1 MP Digital Camera with 63x Optical Zoom<br></a>
+      <p class="price">Rs.20,990<br></p>
+      <h2><a href="#"><i class="fa fa-shopping-cart"></i>Add to Cart<br><br></a></h2>
+
+  </li>
+
+  <li>
+    <img src="images/ca7.jpg">
+    <br><br>
+
+    <div class="resource_info">
+      <a href="#" class="button">Fujifilm X-A5 mirrorless Cameras<br></a>
+      <p class="price">Rs.42,499<br></p>
+      <h2><a href="#"><i class="fa fa-shopping-cart"></i>Add to Cart<br><br></a></h2>
+
+  </li>
+
+  <li>
+    <img src="images/ca8.jpg">
+    <br><br>
+
+    <div class="resource_info">
+      <a href="#" class="button">Sony Cybershot DSC-W830/S 20.1MP Digital Camera<br></a>
+      <p class="price">Rs.7,650<br></p>
+      <h2><a href="#"><i class="fa fa-shopping-cart"></i>Add to Cart<br><br></a></h2>
+
+  </li>
+
+  <li>
+    <img src="images/ca9.jpg">
+    <br><br>
+
+    <div class="resource_info">
+      <a href="#" class="button">Sony Alpha A6000Y 24.3MP Digital SLR Camera<br></a>
+      <p class="price">Rs.54,399<br></p>
+      <h2><a href="#"><i class="fa fa-shopping-cart"></i>Add to Cart<br><br></a></h2>
+
+  </li>
+
+  <li>
+    <img src="images/ca10.jpg">
+    <br><br>
+
+    <div class="resource_info">
+      <a href="#" class="button">Nikon Coolpix A10 Point and Shoot Digital Camera<br></a>
+      <p class="price">Rs.6,000<br></p>
+      <h2><a href="#"><i class="fa fa-shopping-cart"></i>Add to Cart<br><br></a></h2>
+
+  </li>
+
+
+</ul>
+</div>
+</body>
+</html>
+
+
